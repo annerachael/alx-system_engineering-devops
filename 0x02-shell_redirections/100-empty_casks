@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e >> "find . -type f -type d" | ls -lt  
+find .  -empty | rev | cut -d '/' -f 1 | rev  
