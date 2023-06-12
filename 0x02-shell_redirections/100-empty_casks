@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e >> "find . -type f -type d" | ls -lt  
