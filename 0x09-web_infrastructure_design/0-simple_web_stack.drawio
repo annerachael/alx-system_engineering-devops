@@ -1,9 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T10:34:22.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="OOFaWVqIugFGbFFsOngj" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T10:35:06.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JBZt3u29oitOlBPZLI4k" version="22.1.16" type="github">
   <diagram name="Page-1" id="6lA0BKjtGFwqYuJ3c2a7">
-    <mxGraphModel>
+    <mxGraphModel dx="1900" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-31" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="375" y="20" width="470" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-32" value="&lt;b&gt;INTERNET&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="167.5" width="250" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-33" value="User" style="shape=actor;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="670" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-34" value="Browser: www.foobar.com" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-35" value="OS" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="VJeLKNnLp0_Xp-ChIkat-34">
+          <mxGeometry x="170" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-36" value="Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="670" y="250" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-37" value="WebServer(e,g Nginx)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-38" value="Application Server" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="278.71" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-39" value="CodeBase" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="670" y="60" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-40" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-41" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="65" y="530" width="30" height="81.25" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-42" value="&lt;b&gt;ISP&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="488.75" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-43" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-44" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-45" value="DNS" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-46" value="&lt;b&gt;Request/Response&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-47" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="187.31" y="361.48" width="80.68" height="28.71" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-48" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="198.85" y="338.7" width="81.3" height="28.69" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-49" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192.42" y="215" width="174.15" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-50" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="192.42000000000002" y="250.00000000000003" width="168.97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-51" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-52" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-53" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VJeLKNnLp0_Xp-ChIkat-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482.48616600790547" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="480" y="180" />
+              <mxPoint x="480" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-55" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-56" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="301.29" width="100" height="38.71" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-57" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="100" height="38.71" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-58" value="&lt;b&gt;Request/Response&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55.85" y="550" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-59" value="IP: 8.8.8.8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="195" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-60" value="&lt;b&gt;SERVER: 8.8.8.8&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="-10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-61" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.394;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580.0899999999998" y="255.20000000000005" as="sourcePoint" />
+            <mxPoint x="639.91" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJeLKNnLp0_Xp-ChIkat-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.585;exitY=0.422;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.0000000000002" y="212.2800000000001" as="sourcePoint" />
+            <mxPoint x="590.05" y="277.7257142857144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
