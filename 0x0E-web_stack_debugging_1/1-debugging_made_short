@@ -2,4 +2,4 @@
 # Change port 8080 to 80
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart
-pgrep 'nginx' |xargs kill -9
+pgrep -f 'nginx' |xargs kill -9
